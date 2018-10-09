@@ -34,7 +34,7 @@ export default class CustomHeaderFooterApplicationCustomizer
 
     // For now this is hard-coded
     // -- UPLOAD JSON WITH MENU CONTENTS AND PUT THE URL HERE --
-    const url = 'https://<tenant>.sharepoint.com/sites/scripts/Style%20Library/HeaderFooterData.json.txt';
+    const url = 'https://fedsol.sharepoint.com/sites/scripts/Style%20Library/HeaderFooterData.json.txt';
 
     // Read JSON containing the header and footer data
       HeaderFooterDataService.get(url)
